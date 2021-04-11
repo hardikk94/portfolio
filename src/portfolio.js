@@ -12,24 +12,24 @@ const greeting = {
   username: "Hardik Kothari",
   title: "Hi all, I'm Hardik",
   subTitle: emoji(
-    "I'm a web & Mobile app developer. I have more than 4 years of experience in the software development field.I have been working in the electron framework from the last two years so good in that.I have been certified in Electron Framework. I have a very good experience in front end technologies like Vue , React , Angular.Only live in JS world. Hands-on experience in Ionic , Angular , React , Xamarin , Electron , Vue , Rxjs , NGRX , Redux , Mobex , Vuex , Typescript , Webpack , Node JS , MEAN Stack , MERN Stack , Rest API, AWS services."
+    "I'm a web & Mobile app developer. I have more than 4 years of experience in the software development field.I have been working in the electron framework from the last two years so good in that.I have been certified in Electron Framework. I have a very good experience in front end technologies like Vue , React , Angular.Only live in JS world."
   ),
-  resumeLink:"https://drive.google.com/file/d/1KjrxJCyj47TMQLMPYWktDEE6kjjX7Ik0/view?usp=sharing",
+  resumeLink:"https://drive.google.com/file/d/1gDBTMmMWUvTbXgdM2qdh-7CnqUabQKXk/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/asifvora",
-  linkedin: "https://www.linkedin.com/in/asif-vora",
-  gmail: "asifvora0@gmail.com",
+  github: "https://github.com/hardikk94?tab=repositories",
+  linkedin: "https://www.linkedin.com/in/hardik-kothari-42404213b",
+  gmail: "hardikkothari46@gmail.com",
   // gitlab: "https://gitlab.com/",
-  medium: "https://medium.com/@asifvora",
-  facebook: "https://www.facebook.com/asif.vora.92",
-  stackoverflow: "https://stackoverflow.com/users/7833077/asif-vora",
-  instagram: 'https://www.instagram.com/007_dark_shadow/',
-  twitter: 'https://twitter.com/007_dark_shadow',
+  // medium: "https://medium.com/@asifvora",
+  facebook: "https://www.facebook.com/hardik.kothari.100",
+  stackoverflow: "https://stackoverflow.com/users/5997390/hardik-kothari",
+  instagram: 'https://www.instagram.com/Beinghardikk/',
+  twitter: 'https://twitter.com/hardikkothari8',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -37,14 +37,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK JAVASCRIPT DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Only live in JS world. Hands-on experience in Ionic , Angular , React , Xamarin , Electron , Vue , Rxjs , NGRX , Redux , Mobex , Vuex , Typescript , Webpack , Node JS , MEAN Stack , MERN Stack , Rest API, AWS services.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web , mobile and desktop applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Experience in configuration of automated build process for creating MAC/Window/Linux distribution package"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Supabase.io"
+      "⚡ Integration of third party services such as Firebase, Intercom , Mixpanel, Fullstory, Sentry, amplitude and many more to track app performance and user's feedbacks."
     )
   ],
 
@@ -123,6 +123,9 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "bitbucket",
       fontAwesomeClassname: "fab fa-bitbucket"
+    },{
+      skillName: "AWS services",
+      fontAwesomeClassname: "fab fa-aws"      
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -134,35 +137,35 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "L.J. Institute Of Engineering and Technology, Ahemedabad (GTU)",
-      logo: require("./assets/images/gtu.jpeg"),
-      subHeader: "Master of Computer Applications",
-      duration: "2015 - 2017",
-      desc: "8.21 CGPA",
+      schoolName: "K S School of Business Management and Technical Research",
+      logo: require("./assets/images/kscollge.jpeg"),
+      subHeader: "Master of Science in Information Technology (Msc.IT)",
+      duration: "2014 - 2016",
+      desc: "3.31 GPA out of 5",
       descBullets: []
     },
     {
-      schoolName: "L.N.Patel College of COMP & MANAG, Kalyanpura (HNGU)",
-      logo: require("./assets/images/hngu.jpeg"),
-      subHeader: "Bachelor of Computer Applications",
-      duration: "2012 - 2015",
-      desc: "84.66%",
+      schoolName: "K S School of Business Management and Technical Research",
+      logo:require("./assets/images/kscollge.jpeg"),
+      subHeader: "Bachelor of Science in Information Technology (Bsc.IT)",
+      duration: "2011 - 2014",
+      desc: "3.47 GPA out of 5",
       descBullets: []
     },
     {
-      schoolName: "Shree Madhymikshala, Viramgam (GHSEB)",
-      logo: require("./assets/images/gseb.jpeg"),
+      schoolName: "RajstRajasthan English Higher Secondary School (RHHS)",
+      logo: require("./assets/images/rhhs.jpeg"),
       subHeader: "HSC",
-      duration: "2010 - 2012",
-      desc: "67.14%",
+      duration: "2010 - 2011",
+      desc: "84.33%",
       descBullets: []
     },
     {
-      schoolName: "New Education High School, Viramgam (GSEB)",
-      logo: require("./assets/images/gseb.jpeg"),
+      schoolName: "Rajasthan English Higher Secondary School (RHHS)",
+      logo: require("./assets/images/rhhs.jpeg"),
       subHeader: "SSC",
-      duration: "2009 - 2010",
-      desc: "59.38%",
+      duration: "2008 - 2009",
+      desc: "86.09%",
       descBullets: []
     }
   ]
@@ -179,7 +182,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "40%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
@@ -195,35 +198,74 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Sr. Software Engineer",
+      role: "Lead Engineer",
       company: "Simform",
       companylogo: require("./assets/images/simform.png"),
       date: "January 2020 – Present",
-      desc: "I'm working as a Sr. Software Engineer for building a web appliactions"
-      // descBullets: []
+      desc: "Simform takeover the Cloud-magic and I assigned in the \"Newton Mail app\".Newton is email based product which provides many of features like read receipts, link receipts and shortcuts etc",
+    //   descBullets: [
+    //   "Involved in sprint planning, sprint grooming, and code review process",
+    //   "Experience in handling the team and deliver a sprint goal within the time in the Agile Working environment.",
+    //   "Experience in configuration of automated build process for creating MAC/Window/Linux distribution package",
+    //   "Communicate with backend team constantly and discussion on the features to achieve a complete features."
+    // ]
+    },
+    {
+      role: "Fullstack Developer",
+      company: "Simform",
+      companylogo: require("./assets/images/simform.png"),
+      date: "January 2019 – January 2020",
+      desc: "I joined Simform as Fullstack developer but Mostly I worked in the desktop applications which based on Electron Framework.I worked in the Slack-backed \"YAC]\" for 1 and half year which is a voice messaging app.",
+      // descBullets: [
+      //   "Communication with clients and parity with developer(US Team) to achieve client goals",
+      //   "Created a automated build process for creating MAC/Window/Linux distribution package",
+      //   "Communicate with backend team constantly and discussion on the features to achieve a complete features.",
+      //   "Coordination with various teams for the successful delivery of the product"
+      // ]
+    },
+    {
+      role: "Senior Mobile Application Developer",
+      company: "BiztechCS",
+      companylogo: require("./assets/images/biztech.png"),
+      date: "July 2018 – May 2019",
+      desc: "I joined Biztech as junior software engineer and in the three years, I was lead JS Department.I worked in many of front end technologies like Ionic , AngularJS, Angular2, TypeScript, electron and Xamarin, RXJS, NGRX. I was part of the Major project of the company the name was \"Water Expert\" which was a enterprise level IOT app.In that my role was mobile app developer.",
+      // descBullets:[
+      //     "Participating in requirement gathering, converting requirements into a technical specification and sprint planning",
+      //     "Experience in handling the team and deliver a sprint goal within the time in the Agile Working environment.",
+      //     "Involved in sprint planning, sprint grooming, and code review process",
+      //     "Managed the automated release process for mobile applications and desktop applications",
+      //     "Trained to junior engineers and freshers", 
+      //     "Setup front end project architectures with CICD",
+      // ]
     },
     {
       role: "Software Engineer",
-      company: "Simform",
-      companylogo: require("./assets/images/simform.png"),
-      date: "June 2019 – December 2020",
-      desc: "I'm working as a Software Engineer for building a web appliactions"
-      // descBullets: []
+      company: "BiztechCS",
+      companylogo: require("./assets/images/biztech.png"),
+      date: "January 2017 – January 2018",
+      desc: "I switched my technology and start to work on Ionic, Electron , Angular JS. I was allocated in major project of the comapny."
     },
     {
-      role: "JavaScript Developer",
-      company: "Multidots",
-      companylogo: require("./assets/images/multidots.jpeg"),
-      date: "July 2017 – May 2019",
-      desc: "I'm worked as a JavaScript Developer for building a web appliactions"
+      role: "Junior Software Engineer",
+      company: "BiztechCS",
+      companylogo: require("./assets/images/biztech.png"),
+      date: "January 2016 – January 2017",
+      desc: "I started my journy with junior software engineer in Dot Net Technologies like C#, Xamarin, Windows Universal app"
     },
     {
-      role: "Project Trainee",
-      company: "Multidots",
-      companylogo: require("./assets/images/multidots.jpeg"),
-      date: "January 2017 – June 2017",
-      desc: "Project Trainee"
-    }
+      role: "Intern",
+      company: "Bhaskaracharya Institute For Space Applications and Geo-Informatics",
+      companylogo: require("./assets/images/bisag.jpeg"),
+      date: "January 2015 – January 2015",
+      desc: "In BISAG I was joined as intern for the 4th year's college project.There I allocated in \"Workplace\" project which was based on .Net web application with MVC, Razor, Sql Server 2012, Fusion chart.",
+    },
+    {
+      role: "Intern",
+      company: "Dexter Consultancy Pvt. Ltd.",
+      companylogo: require("./assets/images/dexter.jpeg"),
+      date: "January 2013 – January 2013",
+      desc: "Dexter company is a research & IT company and I started my career as Intern with this company in ASP.Net Technology. There I worked in coaching institute project which was based on ASP.Net web application with c#,Sql server 2008 and structured in three tier architecture."
+    },  
   ]
 };
 
@@ -232,7 +274,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "asifvora", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "hardikk94", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -240,34 +282,39 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "SERVICES",
+  subtitle: "I can make this awesome things",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "fa"
-        }
-        //  you can add extra buttons here.
+      image: require("./assets/images/webdevelopment.png"),
+      projectName: "Web Development",
+      projectDesc: "A complete web app solution for business",
+      footerLink: [      
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: ""
-        }
+      image: require("./assets/images/mobile-desktop.jpeg"),
+      projectName: "Mobile & Desktop App Development",
+      projectDesc: "A complete mobile & Desktop app solution for business",
+      footerLink: [     
       ]
-    }
+    },
+    {
+      image: require("./assets/images/webdesigning.jpeg"),
+      projectName: "Web Designing",
+      projectDesc: "A complete web designing solution for business",
+      footerLink: [     
+      ]
+    },
+    {
+      image: require("./assets/images/sofwaredevelopment.png"),
+      projectName: "Software Development",
+      projectDesc: "A complete software development solution for business",
+      footerLink: [     
+      ]
+    },    
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -280,56 +327,36 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Achievement in Learning & Development",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Awarded for \"Achievement in Learning & Development\" in the year of 2018 by Biztech.",
+      image: require("./assets/images/cert1.JPG"),
+      footerLink: [  
+      ]
+    },
+    {
+      title: "Master Electron: Desktop Apps with HTML, JavaScript & CSS",
+      subtitle:
+        "Certfied for electron framework with HTML, Javscript, CSS by Udemy ",
+      image: require("./assets/images/udemy.jpeg"),
       footerLink: [
         {
-          name: "Certification",
+          name: "View Certificate",
           url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
+            "https://www.udemy.com/certificate/UC-258a1b0a-ec45-4b18-8b8c-215329a01d59/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Unsung Hero",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url:
-            ""
-        }
+        "Nominated for \"Unsung Hero\" in 2017 for providing a significant contribution in the year of 2017 by Biztech ",
+      image: require("./assets/images/cert2.JPG"),
+      footerLink: [   
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: ""
-        }
-      ]
-    }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -393,14 +420,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(+91) 7600584687",
-  email_address: "asifvora0@gmail.com"
+  number: "(+91) 7016533746",
+  email_address: "hardikkothari46@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "007_dark_shadow", //Replace "twitter" with your twitter username without @
+  userName: "hardikkothari8", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
