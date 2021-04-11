@@ -8,5 +8,3 @@
 This is a ReactJS based personal resume website template
 
 ## Credits
-
-#### Credits to Saad Pasta <a href='https://github.com/saadpasta/developerFolio'>Original Repo</a>
