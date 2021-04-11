@@ -286,28 +286,28 @@ const bigProjects = {
   subtitle: "I can make this awesome things",
   projects: [
     {
-      image: require("./assets/images/webdevelopment.png"),
+      image: require("./assets/images/service2.jpeg"),
       projectName: "Web Development",
       projectDesc: "A complete web app solution for business",
       footerLink: [      
       ]
     },
     {
-      image: require("./assets/images/mobile-desktop.jpeg"),
+      image: require("./assets/images/service1.jpeg"),
       projectName: "Mobile & Desktop App Development",
       projectDesc: "A complete mobile & Desktop app solution for business",
       footerLink: [     
       ]
     },
     {
-      image: require("./assets/images/webdesigning.jpeg"),
+      image: require("./assets/images/service3.jpeg"),
       projectName: "Web Designing",
       projectDesc: "A complete web designing solution for business",
       footerLink: [     
       ]
     },
     {
-      image: require("./assets/images/sofwaredevelopment.png"),
+      image: require("./assets/images/service4.jpeg"),
       projectName: "Software Development",
       projectDesc: "A complete software development solution for business",
       footerLink: [     
