@@ -12,7 +12,7 @@ const greeting = {
   username: "Hardik Kothari",
   title: "Hi all, I'm Hardik",
   subTitle: emoji(
-    "I'm a web & Mobile app developer. I have more than 4 years of experience in the software development field.I have been working in the electron framework from the last two years so good in that.I have been certified in Electron Framework. I have a very good experience in front end technologies like Vue , React , Angular.Only live in JS world."
+    "I'm a web & Mobile app developer. I have more than 5 years of experience in the software development field.I have been working in the electron framework from the last two years so good in that.I have been certified in Electron Framework. I have a very good experience in front end technologies like Vue , React , Angular.Only live in JS world."
   ),
   resumeLink:"https://drive.google.com/file/d/15Ds9kvFzHrVt9t2LMZkZsak1G9dTW5GA/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
