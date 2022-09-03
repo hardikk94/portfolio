@@ -14,7 +14,7 @@ const greeting = {
   subTitle: emoji(
     "I'm a web & Mobile app developer. I have more than 4 years of experience in the software development field.I have been working in the electron framework from the last two years so good in that.I have been certified in Electron Framework. I have a very good experience in front end technologies like Vue , React , Angular.Only live in JS world."
   ),
-  resumeLink:"https://drive.google.com/file/d/1gDBTMmMWUvTbXgdM2qdh-7CnqUabQKXk/view?usp=sharing",
+  resumeLink:"https://drive.google.com/file/d/15Ds9kvFzHrVt9t2LMZkZsak1G9dTW5GA/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -198,11 +198,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Tech Lead",
+      company: "Simform",
+      companylogo: require("./assets/images/simform.png"),
+      date: "January 2022 – Present",
+      desc: "This year I got promoted to Tech lead and was assigned to Hopscotch. It is a fin-tech application. I developed this project from the scratch and after getting some funding  Now, I am developing as well as managing a small team of 20 members with QA, Frontend, and backend. Major roles & responsibilities in this project are client communication, requirement gathering, sprint grooming, constantly communicating and supporting onshore's backend team, managing team, and release process on DEV, QAT, UAT, and PROD.",
+    //   descBullets: [
+    //   "Involved in sprint planning, sprint grooming, and code review process",      
+    //   "Communicate with backend team constantly and discussion on the features to achieve a complete features.",      
+    // ]
+    },
+    {
       role: "Lead Engineer",
       company: "Simform",
       companylogo: require("./assets/images/simform.png"),
-      date: "January 2020 – Present",
-      desc: "Simform takeover the Cloud-magic and I assigned in the \"Newton Mail app\".Newton is email based product which provides many of features like read receipts, link receipts and shortcuts etc",
+      date: "January 2021 – December 2021",
+      desc: "Simform takeover the Cloud-magic and I was assigned to the \"Newton Mail app\".Newton is email based product that provides many features like read receipts, link receipts, and shortcuts etc. I was the only developer for the desktop side build development(IOS, Windows, Linux). Major roles & responsibilities are communication with the CEO (Maitrik Katariya) and team, constantly supporting the backend team, release window, mac, Linux, Mac M1 & M2, and customer support for debugging the issue. ",
     //   descBullets: [
     //   "Involved in sprint planning, sprint grooming, and code review process",
     //   "Experience in handling the team and deliver a sprint goal within the time in the Agile Working environment.",
@@ -214,8 +225,8 @@ const workExperiences = {
       role: "Fullstack Developer",
       company: "Simform",
       companylogo: require("./assets/images/simform.png"),
-      date: "January 2019 – January 2020",
-      desc: "I joined Simform as Fullstack developer but Mostly I worked in the desktop applications which based on Electron Framework.I worked in the Slack-backed \"YAC]\" for 1 and half year which is a voice messaging app.",
+      date: "January 2019 – December 2020",
+      desc: "I joined Simform as Fullstack developer but mostly I worked in the desktop applications which based on ElectronJS Framework.I was assigned into the Slack-backed \"YAC\" for 1 and half year which is a voice messaging app.It is developed by me from the scratch.I was the key developer in desktop app side development.Major roles & responsibilities are communication with CEO (Justin mitchell), contantly working with backend onshore team in USA, release build Mac and Windows",
       // descBullets: [
       //   "Communication with clients and parity with developer(US Team) to achieve client goals",
       //   "Created a automated build process for creating MAC/Window/Linux distribution package",
@@ -282,39 +293,39 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "SERVICES",
-  subtitle: "I can make this awesome things",
-  projects: [
-    {
-      image: require("./assets/images/service2.jpeg"),
-      projectName: "Web Development",
-      projectDesc: "A complete web app solution for business",
-      footerLink: [      
-      ]
-    },
-    {
-      image: require("./assets/images/service1.jpeg"),
-      projectName: "Mobile & Desktop App Development",
-      projectDesc: "A complete mobile & Desktop app solution for business",
-      footerLink: [     
-      ]
-    },
-    {
-      image: require("./assets/images/service3.jpeg"),
-      projectName: "Web Designing",
-      projectDesc: "A complete web designing solution for business",
-      footerLink: [     
-      ]
-    },
-    {
-      image: require("./assets/images/service4.jpeg"),
-      projectName: "Software Development",
-      projectDesc: "A complete software development solution for business",
-      footerLink: [     
-      ]
-    },    
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // title: "SERVICES",
+  // subtitle: "I can make this awesome things",
+  // projects: [
+  //   {
+  //     image: require("./assets/images/service2.jpeg"),
+  //     projectName: "Web Development",
+  //     projectDesc: "A complete web app solution for business",
+  //     footerLink: [      
+  //     ]
+  //   },
+  //   {
+  //     image: require("./assets/images/service1.jpeg"),
+  //     projectName: "Mobile & Desktop App Development",
+  //     projectDesc: "A complete mobile & Desktop app solution for business",
+  //     footerLink: [     
+  //     ]
+  //   },
+  //   {
+  //     image: require("./assets/images/service3.jpeg"),
+  //     projectName: "Web Designing",
+  //     projectDesc: "A complete web designing solution for business",
+  //     footerLink: [     
+  //     ]
+  //   },
+  //   {
+  //     image: require("./assets/images/service4.jpeg"),
+  //     projectName: "Software Development",
+  //     projectDesc: "A complete software development solution for business",
+  //     footerLink: [     
+  //     ]
+  //   },    
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
