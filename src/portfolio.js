@@ -12,9 +12,9 @@ const greeting = {
   username: "Hardik Kothari",
   title: "Hi all, I'm Hardik",
   subTitle: emoji(
-    "I'm a web & Mobile app developer. I have more than 5 years of experience in the software development field.I have been working in the electron framework from the last two years so good in that.I have been certified in Electron Framework. I have a very good experience in front end technologies like Vue , React , Angular.Only live in JS world."
+    "I work as a web, mobile app, and MERN developer. I have over 5 years of experience in the software development area. I have extensive experience with frontend technologies like as Vue, React and Angular, as well as backend technologies such as nodejs, MongoDB, node express, SQL, and Typescript. I am a self-learned, focused, positive thinker, flexible to work with any language and hard worker."
   ),
-  resumeLink:"https://drive.google.com/file/d/15Ds9kvFzHrVt9t2LMZkZsak1G9dTW5GA/view?usp=sharing",
+  resumeLink:"https://drive.google.com/file/d/1ajvPmfkynqBjpm8FpLpYyQmn-ftQ5XZ8/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
